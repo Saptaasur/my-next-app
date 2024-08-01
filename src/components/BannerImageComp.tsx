@@ -75,12 +75,11 @@ const Content = styled.div`
 `;
 
 const Title = styled.h2`
-  font-size: 1.5em;
-  margin: 0;
+  font-size: 1em;
 `;
 
 const Description = styled.p`
-  font-size: 1em;
+  font-size: .8em;
   margin: 10px 0;
 `;
 
@@ -89,7 +88,7 @@ const CTAButton = styled.button`
   color: #000;
   border: none;
   border-radius: 5px;
-  padding: 10px 20px;
+ 
   cursor: pointer;
 `;
 

@@ -79,8 +79,8 @@ const Home = () => {
       title: data.title,
       description: data.description,
       image: data.image,
-      cta: data.cta || '', // Provide default value if not present
-      background: data.background || '', // Provide default value if not present
+      cta: data.cta || '', 
+      background: data.background || '', 
     };
   
     const updatedBanners = banners.map((banner, index) =>
